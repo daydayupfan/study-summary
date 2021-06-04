@@ -1,4 +1,4 @@
-1、创建项目
+1、创建项目6
 2、在项目目录打开 git bash here
 3、git init  将项目交给git 进行管理
 4、git add . 添加所有文件

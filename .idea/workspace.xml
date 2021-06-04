@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46e19dc1-bbc0-420c-b11e-5004bea4b5af" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/多线程/多线程与高并发.md" beforeDir="false" afterPath="$PROJECT_DIR$/多线程/多线程与高并发.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/git/git 本地代码上传github步骤.md" beforeDir="false" afterPath="$PROJECT_DIR$/git/git 本地代码上传github步骤.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1622733540865</updated>
       <workItem from="1622733545895" duration="2294000" />
-      <workItem from="1622787190114" duration="487000" />
+      <workItem from="1622787190114" duration="1127000" />
     </task>
     <task id="LOCAL-00001" summary="add:添加文件">
       <created>1622734718149</created>
@@ -91,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622735661597</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="optimize:修改文件格式">
+      <created>1622787716938</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1622787716938</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +118,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add:添加文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="add:添加文件" />
+    <MESSAGE value="optimize:修改文件格式" />
+    <option name="LAST_COMMIT_MESSAGE" value="optimize:修改文件格式" />
   </component>
 </project>
