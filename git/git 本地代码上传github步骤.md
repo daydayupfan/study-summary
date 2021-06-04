@@ -9,3 +9,7 @@
 所以要加上-u这个参数 远程仓库有内容之后 就可以去掉参数-u
 9、git pull --rebase origin master 这步是在远程仓库创建的时候勾选了生成README文件选项
 需要先进行合并 之后再进行git push origin master就完成了
+
+git rm -r --cache 解决gitgnore文件不生效
+再重复操作3.4步即可
+
