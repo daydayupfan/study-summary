@@ -1,5 +1,6 @@
-1、创建项目6
-2、在项目目录打开 git bash here
+**上传代码至github**
+1、创建项目
+2、在项目目录打开 git Bash Here
 3、git init  将项目交给git 进行管理
 4、git add . 添加所有文件
 5、git commit -m "注释" 提交代码到本地仓库
