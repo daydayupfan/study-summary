@@ -74,5 +74,5 @@ docker tag 63130206b0fa redis:5.0.5
 
 #较快的镜像仓库
  "https://registry.docker-cn.com",
-    "http://hub-mirror.c.163.com",
-    "https://registry.docker-cn.com"
+ "http://hub-mirror.c.163.com",
+ "https://registry.docker-cn.com"
