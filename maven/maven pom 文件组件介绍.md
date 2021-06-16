@@ -23,12 +23,22 @@ maven的模型版本，跟随maven定义，一般不能修改。
 作为额外的好处，Maven引入了这些依赖项的依赖项（可传递依赖项），
 允许您的列表只关注项目所需的依赖项。
 
-
-建议和反馈
-前往百度翻译
-
 ##dependencyManagement
 可以在一个中心位置设置依赖项详细信息，该位置会传播到所有继承的pom,但不会加载实际依赖到项目中
+
+##compile 编译
+##install 先打包至target 再上传至本地仓库
+##package 打包至target
+
+maven有clean、default、site三种生命周期，每种生命周期都包含一些阶段。
+三套生命周期是互相独立的，每种生命周期的阶段是前后依赖的。
+执行某个阶段，则会先依次执行该生命周期的前面阶段 （比如你执行
+install，其实是执行了validate、compile、test、package、verify、install这么多操作）
+clean包含了 pre-clean、clean、post-clean阶段；
+default生命周期包含了validate、compile、test、package、verify、install、deploy阶段；
+site生命周期包含了pre-site、site、post-site、site-deploy阶段。
+
+
 
 
 
