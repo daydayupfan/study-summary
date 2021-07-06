@@ -88,7 +88,7 @@ INNODB 事务隔离级别
 
 ###MVCC 多版本并发控制
 MCVV这种读取历史数据的方式称为快照读(snapshot read)，而读取数据库当前版本数据的方式，叫当前读(current read)
-select 操作使用的就是操作读读取性能高不需要加锁，
+select 操作使用的就是操作读取性能高不需要加锁，
 update|delete|insert使用当前读，读取的都是最新数据包括没有commit的，需要加锁。
 
 表锁：
@@ -99,7 +99,23 @@ update|delete|insert使用当前读，读取的都是最新数据包括没有com
 两个事务不能锁同一个索引；
 insert，delete，update在事务中都会自动默认加上排它锁
 
-。
+##INNODB 索引支持查询的最大数据量
+INNODB索引页大小为16K
+索引能支持查询的数据量计算为：
+例索引深度=3 计算 主键以及指针大小 假设主键类型 8B 指针6B 那么 每一页能存放 16K/14B=1170
+使用 首show table status like 'sp_job_log' 查询 每行数据大小（avg_row_length ）
+1170*1170*(16k/avg_row_length)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
