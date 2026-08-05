@@ -60,22 +60,22 @@ Anthropic 官方出品的 Skills 集合，共 16 个生产级技能，分为 5 �
 |---|---|---|
 | 00 | `Meta_Dispatcher` | 任务调度与需求拆解 |
 | 01 | `ProductManager_Brainstorming` | 需求头脑风暴与 PRD 生成 |
-| 01 | `Architect_TechStackSelector` | 技术栈选型与评估 |
+| 01a | `Architect_TechStackSelector` | 技术栈选型与评估 |
 | 02 | `Architect_APIDesign` | REST/GraphQL API 设计 |
-| 02 | `Designer_UIUXIntelligence` | UI/UX 智能设计 |
+| 02a | `Designer_UIUXIntelligence` | UI/UX 智能设计 |
 | 03 | `Developer_ReactBestPractices` | React 最佳实践 |
-| 03 | `Developer_ArtifactsBuilder` | Web 构件生成 |
-| 03 | `Mobile_Flutter` | Flutter 移动开发 |
+| 03a | `Developer_ArtifactsBuilder` | Web 构件生成 |
+| 03b | `Mobile_Flutter` | Flutter 移动开发 |
 | 04 | `Tester_BrowserAutomation` | 浏览器自动化测试 |
 | 05 | `Backend_Node` | Node.js 后端开发 |
-| 05 | `Backend_Python` | Python 后端开发 |
-| 05 | `Backend_Database` | 数据库操作 |
-| 05 | `DevOps_GitWorkflow` | Git 工作流 |
-| 05 | `DevOps_GitOps` | GitOps 运维 |
+| 05a | `Backend_Python` | Python 后端开发 |
+| 05b | `Backend_Database` | 数据库操作 |
+| 05c | `DevOps_GitWorkflow` | Git 工作流 |
+| 05d | `DevOps_GitOps` | GitOps 运维 |
 | 06 | `SEO_ContentStrategy` | SEO 内容策略 |
-| 06 | `SEO_Technical` | SEO 技术优化 |
-| 06 | `SEO_Analytics` | SEO 数据分析 |
-| 06 | `Office_Docx` | Office 文档自动化 |
+| 06a | `SEO_Technical` | SEO 技术优化 |
+| 06b | `SEO_Analytics` | SEO 数据分析 |
+| 06c | `Office_Docx` | Office 文档自动化 |
 
 ### 3. [HighMark-31/TRAE-Skills](https://github.com/HighMark-31/TRAE-Skills) ⭐ 278
 
